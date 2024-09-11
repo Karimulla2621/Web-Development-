@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Comprahensive HTML Forms</title>
+</head>
+<style>
+    body{
+        background-color: rgb(215, 214, 215);
+        text-align:center;
+        border: 0px;
+    }
+    label{
+        color: rgb(234, 28, 28);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: medium;
+        font-weight: bold;
+        text-decoration-line: none;
+    }
+    input{
+        color: rgb(0, 0, 0);
+        background-color: rgb(222, 210, 210);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+</style>
+<body>
+    <form>
+        <h3>HTML form</h3>
+        <label>Name:</label> 
+        <input type="text" name="Full name" placeholder="Full name"><br><br>
+        <label>Username:</label>
+        <input type="text" name="Username" placeholder="Username"> <br><br>
+        <label>Password:</label>
+        <input type="password" name="Password" placeholder="Password"> <br><br>
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="email"> <br><br>
+        <label>Phonenumber:</label>
+        <input type="Phonenumber" name="Phonenumber" placeholder="Phonenumber"><br><br>
+        <label>date of birth:<birthday</label>
+        <input type="date" name="dd:mm:yy" placeholder="dd:mm:yy"><br><br>
+        <label>age:</label>
+        <input type="age" name="age" placeholder="Enter age"><br><br>
+        <label>gender:</label>
+        <input type="checkbox" name="gender">male    
+        <input type="checkbox" name="gender">female
+        <input type="checkbox" name="gender"> others  <br><br>    <!--I use here Check Box-->        
+        <label>Hobbies:</label>
+        <input type="checkbox" name="Hobbies">sports
+        <input type="checkbox" name="Hobbies">Reading books
+        <input type="checkbox" name="Hobbies">Photography
+        <input type="checkbox" name="Hobbies">Yoga         <br><br> 
+        <label>Country:</label>
+<select>                                           <!--i have take here a select tag under the Optional Tag-->
+            <option value="USA">USA</option>
+            <option value="INDIA">INDIA</option>   
+            <option value="AUSTRALIA">AUSTRALIA</option>
+            <option value="AMERICA">AMERICA</option>
+            <option value="AFGANISTAN">AFGANISTAN</option>
+            <option value="PAKISTAN">PAKISTAN</option>
+            <option value="RUSSIA">RUSSIA</option>
+            <option value="ITALY">ITALY</option>
+            <option value="JAPAN">JAPAN</option>
+            <option value="NEPAL">NEPAL</option>
+            <option value="NEWZELAND">NEWZELAND</option>
+            <option value="ENGLAND">ENGLAND</option>
+            <option value="BANGLADESH">BANGLADESH</option>
+            <option value="CANADA">CANADA</option>
+            <option value="PARIS">PARIS</option>
+            <option value="TURKEY">TURKEY</option>
+            <option value="CHAINA">CHAINA</option>
+</select>
+        <br><br>
+        <label>ProfilePicture:</label>
+        <input type="file" id="choosefile"> <br><br>
+        <label>Resume:</label>
+        <input type="file" id="uploadresume"><br><br>
+        <label> Feed Back:</label>
+        <textarea rows="7" cols="20">enter your feedback here </textarea><br><br>
+        <label>Rating:</label>
+        <input type="range" name="Rating"> <br><br>
+        <button>submit</button>
+        <button>Reset</button>
+        <style>
+            button{
+                color: rgb(24, 24, 27);
+            }
+        </style>
+    </form>
+</body>
+</html>

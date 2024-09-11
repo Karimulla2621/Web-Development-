@@ -1,0 +1,70 @@
+.card3{
+    background-color:white;
+    border-radius: 16px;
+    padding:25px;
+}
+.heading{
+    font-family: "Roboto";
+    font-weight:bold;
+    font-size:25px;
+    color: dimgrey;
+}
+.Reaction-item{
+    border-radius:16px;
+    border: 1px solid black;
+    margin:10px;
+    width: 300px;
+    display: flex;
+    align-items:center;
+    height: 25%;
+    background-color: bisque;
+}
+.image{
+    width:15%;
+    height:15%;
+    padding:10px;
+}
+.reaction{
+    color:rgb(255, 0, 0);
+    font-family: "Roboto";
+    font-weight:bold;
+    margin:10px;
+    font-size:20px;
+}
+.reaction1{
+    color:rgb(11, 11, 11);
+    font-family: "Roboto";
+    font-weight:bold;
+    margin:10px;
+    padding: 15px;
+    font-size:20px;
+    
+}
+.box1{
+    background-color: lightgoldenrodyellow;
+}
+.box2{
+    background-color: powderblue;
+}
+.box3{
+    background-color: peachpuff;
+}
+.blue{
+    color:blue;
+}
+.orange{
+    color:orange;
+}
+.green{
+    color:green
+}
+.continue{
+    background-color:rgb(7, 7, 60);
+    color:white;
+    font-family:"Roboto";
+    font-size:25px;
+    border-radius: 50px;
+    width:250px;
+    height:60px;
+    margin:10px;
+}

@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+    background-image: url(https://images.pond5.com/stars-flying-space-background-aep-after-effect-263465905_iconl.jpeg);
+    display: flex;
+    justify-content: center;
+}
+.rocket-image {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    animation: fly infinite .80s ease-in-out;
+
+}
+@keyframes fly{
+
+    from {
+        top: 600px;
+    }
+
+    to {
+        top:10px;
+    }
+}

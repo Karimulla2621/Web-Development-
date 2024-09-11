@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.body{
+    background: #080808;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background{
+    display:flex;
+    justify-content: center;
+    height:50%;
+    border-width: 5px;
+    border-radius: 20px;
+    gap: 15px;
+    
+    
+}
+.Card1{
+    background-color: rgb(98, 0, 255);
+    border-radius: 20px;
+    height: 500px;
+    width: 300px;
+    margin-top: 25px;
+    margin-bottom:25px;
+    
+}
+.Card2{
+    background-color: rgba(9, 33, 132, 0.37);
+    padding-top: 20px;
+    margin: auto;
+    width: 150px;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 70px;
+    
+}
+.Result{
+    color: #fff;
+    text-align: center;
+}
+.score{
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    font-size:35px;
+    font-weight: bold;
+}
+
+.of{
+color: #464545;
+margin: 2px;
+text-align: center;
+}
+.Achieve{
+    margin-top: 80px;
+    color: #fff;
+    text-align: center;
+}
+.length{
+margin:20px auto;
+text-wrap: balance;
+margin-top: 80px;
+width: 250px;
+text-align: center;
+color:#dfe2e8;
+font-size: 14px;
+}
+.card3{
+    background-color:white;
+    border-radius: 16px;
+    padding:25px;
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+.heading{
+    font-family: "Roboto";
+    font-weight:bold;
+    font-size:25px;
+    color: dimgrey;
+    margin-top:56px;
+}
+.Reaction-item{
+    border-radius:16px;
+    border: 1px solid #000000;
+    margin:30px;
+    height: 45px;
+    width: 250px;
+    display: flex;
+    align-items:center;
+    background-color: bisque;
+}
+.image{
+    width:15%;
+    height:15%;
+    padding:10px;
+}
+.reaction{
+    color:rgb(255, 0, 0);
+    font-family: "Roboto";
+    font-weight:bold;
+    margin:10px;
+    font-size:20px;
+}
+.reaction1{
+    color:rgb(11, 11, 11);
+    font-family: "Roboto";
+    font-weight:bold;
+    margin:10px;
+    padding: 15px;
+    font-size:20px;
+    
+}
+.box1{
+    background-color: lightgoldenrodyellow;
+}
+.box2{
+    background-color: powderblue;
+}
+.box3{
+    background-color: peachpuff;
+}
+.blue{
+    color:blue;
+}
+.orange{
+    color:orange;
+}
+.green{
+    color:green
+}
+.continue{
+    background-color:rgb(7, 7, 60);
+    color:white;
+    font-family:"Roboto";
+    font-size:25px;
+    border-radius: 50px;
+    width: 300px;
+    height:60px;
+    margin:10px;
+}

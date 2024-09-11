@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    height:20px;
+
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header-container{
+    background-color: #030bfc;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.input{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background: #cca108;
+}
+.a-tag{
+    text-decoration: none;
+}
+.Image{
+    width: 200px;
+}
+.watches-box{
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+.imagebox{
+    border: 3px solid rgb(67, 173, 199);
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    box-shadow:3px 4px 5px #03b0f4;
+    border-radius: 10px;
+}
+.Box-container{
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px;
+}
+.heading{
+    text-align: center;
+    margin: 10px;
+}
+.main{
+    background-image: linear-gradient(right rgb(255, 0, 21) purple);
+}
+.body{
+    background-image: linear-gradient(right rgb(255, 0, 0) purple);;
+}
