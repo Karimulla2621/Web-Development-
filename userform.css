@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.user-name{
+    margin: 8px;
+    padding: 8px;
+}
+.user-email{
+    margin: 8px;
+    padding: 8px;
+}
+.user-password{
+    margin:8px;
+    padding:8px
+}
+.user-date{
+    margin: 8px;
+    padding:8px;
+}
+.form{
+    background:rgba(167, 207, 7, 0.427);
+    height:300px;
+    align-content: center;
+    text-align: center;
+}
